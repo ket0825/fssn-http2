@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fssn-http2"
+version = "0.1.0"
+description = ""
+authors = ["etkim <ket0825@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.6"
+hypercorn = "^0.17.3"
+httpx = "^0.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
